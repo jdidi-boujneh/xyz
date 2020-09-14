@@ -1,5 +1,9 @@
 from flask import Flask, render_template
 
+if __name__ == '__main__':
+    app.debug = True
+    app.run() 
+    
 app = Flask(__name__)
 
 
