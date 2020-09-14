@@ -4,6 +4,10 @@ import numpy as np
 
 model = pickle.load(open('iri.pkl', 'rb'))
 
+if __name__ == '__main__':
+    app.debug = True
+    app.run() 
+    
 app = Flask(__name__)
 
 
